@@ -35,7 +35,6 @@ namespace ClassTestApp
 
         }
 
-
         public void Meow() { Console.WriteLine($"{this.Color} {this.Name}, 야옹!"); }
 
         public override void Sleep()
