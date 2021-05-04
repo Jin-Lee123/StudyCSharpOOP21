@@ -7,11 +7,11 @@ namespace ClassTestApp
         static void Main(string[] args)
         {
             Console.WriteLine("고양이 객체 생성");
-            Cat kitty = new Cat("키티",3);
+            Animal kitty = new Cat("키티",3);
             //kitty.Name = "키티"; 
-            kitty.Age = 3;
-            kitty.Color = "햐얀색";
-            kitty.Meow();
+            //kitty.Age = 3;
+            //kitty.Color = "햐얀색";
+            //kitty.Meow();
 
             /*Cat nero = new Cat
             {
@@ -33,6 +33,8 @@ namespace ClassTestApp
             //noname.Name = "야옹이";
             noname.Meow();
             noname.Sleep();
+
+            //Cat allCat = new Animal();
 
             var list = (First : "Cat", Second : "Dog", Third : "Pig",55);
             Console.WriteLine($"튜플 첫번째 : {list.First}");
