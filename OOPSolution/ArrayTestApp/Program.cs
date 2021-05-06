@@ -8,17 +8,13 @@ namespace ArrayTestApp
         {
             Console.WriteLine("대성마이맥 수학 점수");
 
-            int[] scores = new int[10];
-            scores[0] = 80;
+            int[] scores =  { 80,74,81,94,100};  //최종 제일 짧은 초기화 방법
+            //int[] scores =  new int { 80,74,81,94,100}; 
+            /*scores[0] = 80;
             scores[1] = 74;
             scores[2] = 81;
             scores[3] = 94;
-            scores[4] = 100;
-            scores[5] = 40;
-            scores[6] = 55;
-            scores[7] = 96;
-            scores[8] = 70;
-            scores[9] = 88;
+            scores[4] = 100;*/
 
             int sum = 0;
             /*for (int i = 0; i < scores.Length; i++)
