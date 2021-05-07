@@ -62,6 +62,7 @@ namespace ExceptionTestApp
             finally
             {
                 //14ㅅ이ㅔ
+                Console.WriteLine("Finally, 언제든지 실행됨");
             }
 
 
