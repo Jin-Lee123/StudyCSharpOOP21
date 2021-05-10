@@ -14,11 +14,11 @@ namespace PropertyTestApp
         public string Color { get; set; } = "누런색"; //초기값 설정
         public int Age
         {
-            get
+            get // => this.age;  (람다식)
             {
                 return age;
             }
-            set
+            set  // => this.age;
             {
                 if (value<0)
                 {

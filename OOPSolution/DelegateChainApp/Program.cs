@@ -19,11 +19,15 @@ namespace DelegateChainApp
             fireWoorim("우림라이온밸리A");  // 대리자 실행
             Console.WriteLine();
             
-            Calculate calc;   
-            calc = delegate (int a, int b)   //익명 메서드
+            Calculate calc;
+            //무명 함수 표현 1
+            /*calc = delegate (int a, int b)   //익명 메서드
             {
                 return a + b;
-            };
+            };*/
+
+            //무명 함수 표현 2 = 람다식
+            calc = (a, b) => a + b;
             Console.WriteLine($"a + b = {calc(3, 5)}");
         }
     }
